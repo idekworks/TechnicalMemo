@@ -1,1 +1,1 @@
-# This is daily learning memo.
+This is daily learning memo.
