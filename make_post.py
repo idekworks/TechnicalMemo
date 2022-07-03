@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 dt_now = datetime.now()
 print(dt_now.strftime('%Y年%m月%d日 %H:%M:%S'))
 file_name = dt_now.strftime('_posts/%Y-%m-%d-%b%d.md')
+print(file_name)
 
 yesterday = dt_now - timedelta(1)
 prev_name = yesterday.strftime('https://idekworks.github.io/TechnicalMemo/%Y/%m/%d/%b%d.html')
