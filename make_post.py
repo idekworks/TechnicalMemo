@@ -15,8 +15,8 @@ with open(file_name, 'x') as f:
     f.write('---\n') 
     title = dt_now.strftime('%b%d-memo')
     date = dt_now.strftime('%Y-%m-%d')
-    f.write(f'title:{title} \n') 
-    f.write(f'date:{date} \n') 
+    f.write(f'title: {title} \n') 
+    f.write(f'date: {date} \n') 
     f.write('---\n\n') 
     f.write(f'[<prev]({prev_name}) | [next>]({next_name}) \n')
     sl = ['#atcoder','\n\n' '#kaggle', '\n\n' '#統計', '\n\n',
