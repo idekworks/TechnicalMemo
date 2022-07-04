@@ -19,8 +19,8 @@ with open(file_name, 'x') as f:
     f.write(f'date: {date} \n') 
     f.write('---\n\n') 
     f.write(f'[<prev]({prev_name}) | [next>]({next_name}) \n')
-    sl = ['#atcoder','\n\n' '#kaggle', '\n\n' '#統計', '\n\n',
-            '#python algo', '\n\n', '#dev app', '\n\n', '#other' '\n\n']
+    sl = ['# atcoder','\n\n' '# kaggle', '\n\n' '# 統計', '\n\n',
+            '# python algo', '\n\n', '# dev app', '\n\n', '# other' '\n\n']
     f.writelines(sl) 
     f.write('***\n') 
     f.write(f'[<prev]({prev_name}) | [next>]({next_name})')
